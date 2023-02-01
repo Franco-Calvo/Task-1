@@ -143,16 +143,18 @@ input[type="search"]:focus {
 }
 
 .card-img1 {
-  width: 13rem;
-  height: 7.2rem;
+  margin-top: .1rem;
+  width: 14rem;
+  height: 8rem;
   border-radius: 1rem;
 }
 
-.cards-container {
+#cards-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -172,16 +174,18 @@ input[type="search"]:focus {
 
 .festival-title {
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .text-container {
-  height: 5rem;
-  width: 12rem;
+  height: 4rem;
+  width: 14rem;
   font-size: 0.8rem;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .btn-details {
