@@ -1,5 +1,3 @@
-
-
 const cardsContainer = document.getElementById("cards-container");
 
 function newCard(list, element) {
@@ -20,7 +18,7 @@ function fillCard(event) {
   </div>
   <div class="footer-card">
     <h5 class="price">Price: $${event.price}</h5>
-    <a href="../Task-1-Task2/Details.html?id=${event._id}" class="btn-details">Details</a>
+    <a href="../Details.html?id=${event._id}" class="btn-details">Details</a>
   </div>
 </div>`;
 }
