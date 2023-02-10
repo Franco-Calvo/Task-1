@@ -1,4 +1,4 @@
-// Filtrar las 14 cartas de nuevo
+
 
 const cardsContainer = document.getElementById("cards-container");
 
@@ -26,7 +26,7 @@ function fillCard(event) {
 }
 newCard(data.events, cardsContainer);
 
-// Filtrar 7 Categorías
+
 
 const checksContainer = document.getElementById("categories");
 const eventsCategories = data.events.map((evento) => evento.category);
@@ -51,7 +51,7 @@ function createCategory(cate) {
 
 addCategory(catNoRepeat, checksContainer);
 
-// Filtrado por búsqueda
+
 
 const inputSearch = document.querySelector("#inputSearch");
 const buttonSearch = document.getElementById("buttonSearch");
@@ -81,7 +81,7 @@ inputSearch.addEventListener("keyup", function () {
   addSearch(filteredBySearch);
 });
 
-// Filtrado de checks 2 por categorías
+
 
 const checks = document.getElementById("categories");
 
